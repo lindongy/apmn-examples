@@ -1,7 +1,7 @@
 {
-  "name": "bpmn-js-example-modeler",
+  "name": "apmn-js-example-modeler",
   "version": "0.0.0",
-  "description": "A simple modeler built with bpmn-js",
+  "description": "A simple modeler built with apmn-js",
   "scripts": {
     "all": "run-s lint build",
     "build": "webpack --mode production",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bpmn-io/bpmn-js-examples"
+    "url": "https://github.com/lindongy/apmn-js-examples"
   },
   "keywords": [
-    "bpmnjs-example"
+    "apmn-js-example"
   ],
   "author": {
     "name": "Nico Rehwaldt",
@@ -38,8 +38,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "bpmn-js": "^3.4.1",
-    "diagram-js": "^3.0.1",
+    "apmn-js": "^3.4.1",
     "jquery": "^3.3.1"
   }
 }

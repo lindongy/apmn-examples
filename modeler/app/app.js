@@ -1,8 +1,8 @@
 import $ from 'jquery';
 
-import BpmnModeler from 'bpmn-js/lib/Modeler';
+import BpmnModeler from 'apmn-js/lib/Modeler';
 
-import diagramXML from '../resources/newDiagram.bpmn';
+import diagramXML from '../resources/newDiagram.apmn';
 
 var container = $('#js-drop-zone');
 
@@ -133,7 +133,7 @@ $(function() {
     });
 
     saveDiagram(function(err, xml) {
-      setEncoded(downloadLink, 'diagram.bpmn', err ? null : xml);
+      setEncoded(downloadLink, 'diagram.apmn', err ? null : xml);
     });
   }, 500);
 

@@ -11,14 +11,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.bpmn$/,
+        test: /\.apmn$/,
         use: 'raw-loader'
       }
     ]
   },
   plugins: [
     new CopyWebpackPlugin([
-      { from: 'assets/**', to: 'vendor/bpmn-js', context: 'node_modules/bpmn-js/dist/' },
+      { from: 'assets/**', to: 'vendor/bpmn-js', context: 'node_modules/apmn-js/dist/' },
       { from: '**/*.{html,css}', context: 'app/' }
     ])
   ],
